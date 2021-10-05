@@ -1,0 +1,8 @@
+# 오븐시계
+#현재 시간과 조리 시간을 입력받고, 조리가 끝나는 시간을 출력한다.
+
+h, m = map(int, input().split())
+time = int(input())
+m += time
+h += m//60
+print("{} {}}".format(h%24, m%60))
