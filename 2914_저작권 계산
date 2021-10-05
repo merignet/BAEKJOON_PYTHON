@@ -1,0 +1,7 @@
+# 멜로디 라인과 수록곡의 개수에 따른 저작권을 구하라
+
+A, I = map(int, input().split(' '))
+
+s = I*A
+
+print(s-A+1)
